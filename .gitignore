@@ -1,0 +1,21 @@
+# Generated from project.yml by XcodeGen — never commit, never hand-edit.
+*.xcodeproj/
+*.xcworkspace/
+
+# Build output
+build/
+DerivedData/
+.build/
+.swiftpm/
+
+# SwiftPM resolution state. The app resolves AegisECS transitively through
+# Modules/Package.swift, so there is no top-level Package.resolved to pin.
+Modules/.build/
+
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
